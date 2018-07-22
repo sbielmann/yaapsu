@@ -7,7 +7,7 @@ Suitable for Amiga 500, 600 and 1200.
 Made out of a 3D printed case with a Mean Well RPT-60B and IEC 60320 C14 household
 inlet with fuses.
 
-** For experienced users only, incorrect assembling may kill you or your Amiga **
+**For experienced users only, incorrect assembling may kill you or your Amiga**
 
 # Build
 
