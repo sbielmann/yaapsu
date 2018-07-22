@@ -49,6 +49,7 @@ some pictures may be downloaded here: TODO
 ## Assembling
 
 Assemble square male connector with shielded control cable:
+```
   ----v---- 
  | o     o |   - Upper left corner is +12V
  |         |   - Upper right corner is GND
@@ -56,6 +57,7 @@ Assemble square male connector with shielded control cable:
  |         |   - Lower left is Shield
  |  o   o  |   - Lower right is +5V
   --------- 
+```
 Solder wires of cable to +12V, GND, -12V, +5V pins. Cable shielding not to shield pin,
 however to connector it's frame. Close connector case.
 
