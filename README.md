@@ -48,6 +48,8 @@ some pictures may be downloaded here: TODO
 
 ## Assembling
 
+**In any case consult the part datasheet's before continuing**
+
 Assemble square male connector with shielded control cable:
 ```
   ----v---- 
@@ -64,10 +66,12 @@ however to connector it's frame. Close connector case.
 Put other end of cable through cable relief, mount relief on case.
 
 Assemble 6 poles crimp housing to cable:
+```
        ___
   -------------
  | o o o o o o |
   -------------
+```
 1st pin is +5V, 2nd leave empty, 3rd is GND, 4th leave empty, 5th is +12V, 6th is -12V
 Cable shielding goes into a ring terminal, you may want to use some shrink tube to 
 insulate it.
@@ -77,10 +81,12 @@ Assemble C14 plug and rocker switch with cables, blade receptacles and ring term
 and 3 poles crimp housing. From C14 L pin to switch, from second switch pin to crimp
 housing. From C14 N pin to crimp housing. From C14 ground to a ring terminal. 3 poles
 crimp housing connections are:
+```
     ___
   ------- 
  | o o o |
   -------
+```
 1st pin is N from C14, 2nd leave empty, 3rd pin is L from switch.
 
 
@@ -88,6 +94,7 @@ Finally mount RPT-60B. Prepare a cable with ring terminals on both sides the len
 a little bit more than the length of the RPT board. Have a look at the RPT-60B
 data sheet, mounting holes M1 and M2 are safety grounds and need to be connected
 to ground:
+```
   -------------------
  |o                 o|
  |                   |
@@ -95,6 +102,7 @@ to ground:
  | M1             M2 |
  |o                 o|
   ------------------- 
+```
 
 Screw RPT to bottom of 3D printed case by placing ring terminals of cable shield
 and prepared short cable under M2, the other end from short cable under M1 and
