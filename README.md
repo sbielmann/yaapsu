@@ -14,7 +14,7 @@ inlet with fuses.
 ## Case
 
 Made with OpenSCAD, see file openscad/psucase.scad, resulting STL files and
-some pictures may be downloaded here: TODO
+some pictures may be downloaded here: https://www.thingiverse.com/thing:3014342
 
 ## Parts
 
@@ -91,7 +91,7 @@ crimp housing connections are:
 
 
 Finally mount RPT-60B. Prepare a cable with ring terminals on both sides the length
-a little bit more than the length of the RPT board. Have a look at the RPT-60B
+a little bit more than the length of the RPT-60B board. Have a look at the RPT-60B
 data sheet, mounting holes M1 and M2 are safety grounds and need to be connected
 to ground:
 ```
@@ -104,12 +104,14 @@ to ground:
   ------------------- 
 ```
 
-Screw RPT to bottom of 3D printed case by placing ring terminals of cable shield
+Screw RPT-60B to bottom of 3D printed case by placing ring terminals of cable shield
 and prepared short cable under M2, the other end from short cable under M1 and
 ground from C14 also to M1.
 
-Screw C14 to case, place switch in case. Connect crimped JST housings to RPT.
+Screw C14 to case, place switch in case. Connect crimped JST housings to RPT-60B.
 Close case and screw upper part on to lower one.
+
+Stick 4 bumpers to bottom of case.
 
 Final check, plug power to PSU and verify voltage levels on square connector.
 
@@ -120,3 +122,9 @@ your own Amiga PSU, see http://ianstedman.co.uk/Amiga/amiga_hacks/Amiga_PSU/amig
 
 And Lemaru with his wonderfully designed case for PSU cases, see https://www.thingiverse.com/thing:1794271
 or https://www.thingiverse.com/thing:2701695
+
+# Future
+
+- Improve mounting hole for C14 plug
+- Maybe instead of sticked bumbers include some printed legs on case bottom
+- Have a universal plug on the Amiga side too
